@@ -1,0 +1,76 @@
+/* Write your CSS here */
+
+.bg-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #93c5fd;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 768px) {
+  .country-capital-card {
+    background-color: #f8fafc;
+    width: 400px;
+    padding: 30px;
+    border-radius: 15px;
+  }
+  .heading {
+    color: #323f4b;
+    font-size: 25px;
+  }
+  .capitals-dropdown {
+    width: 140px;
+    height: 50px;
+    border: 2px solid #cbd2d9;
+    outline: none;
+    padding: 5px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .text {
+    color: #1e293b;
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  .country-heading {
+    color: #000000;
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .country-capital-card {
+    background-color: #f8fafc;
+    width: 700px;
+    padding: 50px;
+    border-radius: 20px;
+  }
+  .heading {
+    color: #323f4b;
+    font-size: 45px;
+  }
+  .capitals-dropdown {
+    width: 260px;
+    height: 60px;
+    border: 2px solid #cbd2d9;
+    outline: none;
+    padding: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .text {
+    color: #1e293b;
+    font-size: 24px;
+    margin-left: 20px;
+  }
+  .country-heading {
+    color: #000000;
+    font-size: 45px;
+  }
+}
